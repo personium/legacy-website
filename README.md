@@ -5,7 +5,7 @@
 To develop this web page, you should firstly install the javascript libraries by bower.
 Required javascript libraries are listed in `bower.json`, you should execute only one command below (if bower already installed).
 
-bash```
+```bash
 bower install
 ```
 
