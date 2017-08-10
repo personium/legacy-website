@@ -66,7 +66,7 @@
     "demo3-title" : "HomeApp",
     "demo3-description" : "HomeApp is a Personium-based \"Personal Data Store(PDS)\" management application.",
     "demo4-title" : "PCUI",
-    "demo4-description" : "PCUI is CLI tool that helps you manage Personium.",
+    "demo4-description" : "PCUI is the CLI version of HomeApp that helps you manage a Personium-based cell.",
     "ppt1-title" : "Introduction",
     "ppt1-description" : "The word [personium] created by [personal] and [-ium]. Envisioning network of interconnected PDSs like creating complex polymer by bonding atoms...",
     "main-title" : "Open Source PDS server software",
