@@ -1,5 +1,5 @@
 Twenty by HTML5 UP
-html5up.net | @n33co
+html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
@@ -18,7 +18,9 @@ his excellent photos in Twenty's demo*.
 and/or use any of Michael's work without his explicit permission!)
 
 AJ
-n33.co @n33co dribbble.com/n33
+aj@lkn.io | @ajlkn
+
+PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
 
 Credits:
@@ -39,7 +41,8 @@ Credits:
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		CSS3 Pie (css3pie.com)
 		background-size polyfill (github.com/louisremi)
-		jquery.dropotron (n33.co)
-		jquery.scrolly (n33.co)
-		jquery.scrollgress (n33.co)
-		skel (n33.co)
+		Respond.js (j.mp/respondjs)
+		jquery.dropotron (@ajlkn)
+		jquery.scrolly (@ajlkn)
+		jquery.scrollgress (@ajlkn)
+		Skel (skel.io)

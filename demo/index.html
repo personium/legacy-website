@@ -40,8 +40,8 @@
 
         i18n.init(function(err, t) {
             $("#translate").i18n();
-
-                            $("#unitMgrUrl").attr("href", t("unitmgr-git-link"));
+            $("#link_youtube iframe").attr("src", t("youtube_personium_demo"));
+            $("#unitMgrUrl").attr("href", t("unitmgr-git-link"));
         });
     </script>
 </head>
@@ -75,7 +75,13 @@
             </header>
 
         </article>
-
+        <BR>
+            <CENTER>
+                <div id="link_youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Wqzj3ZX2fc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </CENTER>
+        <BR>
         <!-- Main Wrapper -->
         <div id="main-wrapper">
             <div class="wrapper style3">

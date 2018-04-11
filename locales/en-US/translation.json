@@ -8,8 +8,8 @@
     "homeapp-title" : "Welcome to the demo page of HomeApp",
     "homeapp-overview" : "Overview",
     "home-app-description" : "HomeApp is a Personium-based &quot;Personal Data Store(PDS)&quot; management application. To start the tutorial, click the first link - HomeApp (with tutorial). Or, if you already have a Personium cell, click the second link.<br><br />",
-    "home-app-url" : "<a href='http://personium.io/demo/home-app/box-resources/login.html?mode=global' class='uri'>[HomeApp]</a></p>",
-    "home-app-url-tutorial" : "<a href='http://personium.io/demo/home-app/box-resources-demo/login.html?mode=global' class='uri'>[HomeApp (with tutorial)]</a></p>",
+    "home-app-url" : "<a href='https://demo.personium.io/HomeApplication/__/box-resources/login.html?lng=en&mode=global' class='uri'>[HomeApp]</a></p>",
+    "home-app-url-tutorial" : "<a href='https://demo.personium.io/democell/io_personium_demo_HomeApplication/src/login.html?lng=en' class='uri'>[HomeApp (with tutorial)]</a></p>",
     "pcui-title" : "PCUI Manual",
     "pcui-demo-title" : "Demo",
     "pcui-overview" : "Installation method",
@@ -67,6 +67,8 @@
     "demo3-description" : "HomeApp is a Personium-based \"Personal Data Store(PDS)\" management application.",
     "demo4-title" : "PCUI",
     "demo4-description" : "PCUI is the CLI version of HomeApp that helps you manage a Personium-based cell.",
+    "demo5-title" : "UnitManager",
+    "demo5-description" : "UnitManager is a GUI tool that helps you manage the unit cells of Personium.",
     "ppt1-title" : "Introduction",
     "ppt1-description" : "The word [personium] created by [personal] and [-ium]. Envisioning network of interconnected PDSs like creating complex polymer by bonding atoms...",
     "main-title" : "Open Source PDS server software",
@@ -82,7 +84,9 @@
     "introduction" :"The introduction slides on SlideShare.",
     "demosite" :"The demonstration of Personium is opened.",
     "twitter-screen-name": "personium",
-    "link-youtube": "https://youtube.com/embed/Fq0pqL4lFA4",
+    "youtube_personium_description": "https://youtube.com/embed/Fq0pqL4lFA4",
+    "youtube_personium_demo": "https://www.youtube.com/embed/0Wqzj3ZX2fc",
     "link-setup": "setup-ansible/setup_en.html",
-    "link-doc": "https://personium.github.io/en/"
+    "link-doc": "http://personium.io/docs/en/",
+    "unitmgr-git-link": "https://github.com/personium/unit-manager/blob/master/README.md"
 }

@@ -65,7 +65,6 @@
 	});
 
 	$(function() {
-
 		var	$window = $(window),
 			$body = $('body'),
 			$header = $('#header'),
@@ -124,8 +123,7 @@
 				});
 			
 			}
-            setTimeout(function(){$("#translate").show()}, 500);
-
+               setTimeout(function(){$("#translate").show()}, 500);
 	});
 
 })(jQuery);

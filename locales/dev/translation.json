@@ -8,8 +8,8 @@
     "homeapp-title" : "Welcome to Home app sample of PDS.",
     "homeapp-overview" : "Overview",
     "home-app-description" : "The home app sample using Personium for &quot;Personal Data Store(PDS)&quot;. You can access Personium environment by using Home App.<br>Please access following Link<br><br />",
-    "home-app-url" : "<a href='http://personium.io/demo/home-app/box-resources/login.html?mode=global' class='uri'>[Home app]</a></p>",
-    "home-app-url-tutorial" : "<a href='http://personium.io/demo/home-app/box-resources-demo/login.html?mode=global' class='uri'>[Home app (with tutorial)]</a></p>",
+    "home-app-url" : "<a href='https://demo.personium.io/HomeApplication/__/box-resources/login.html?lng=en&mode=global' class='uri'>[Home app]</a></p>",
+    "home-app-url-tutorial" : "<a href='https://demo.personium.io/democell/io_personium_demo_HomeApplication/src/login.html?lng=en' class='uri'>[Home app (with tutorial)]</a></p>",
     "pcui-title" : "PCUI Manual",
     "pcui-demo-title" : "Demo",
     "pcui-overview" : "Installation method",
@@ -82,7 +82,8 @@
     "introduction" :"The introduction slides on SlideShare.",
     "demosite" :"The demonstration of Personium is opened.",
     "twitter-screen-name": "personium",
-    "link-youtube": "https://youtube.com/embed/Fq0pqL4lFA4",
+    "youtube_personium_description": "https://youtube.com/embed/Fq0pqL4lFA4",
+    "youtube_personium_demo": "https://www.youtube.com/embed/0Wqzj3ZX2fc",
     "link-setup": "setup-ansible/setup_en.html",
     "link-doc": "https://personium.github.io/en/"
 }
