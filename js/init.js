@@ -124,6 +124,7 @@
 				});
 			
 			}
+            setTimeout(function(){$("#translate").show()}, 500);
 
 	});
 

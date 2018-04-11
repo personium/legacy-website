@@ -5,9 +5,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html lang="en">
-	<base href="http://personium.io"/>
+	<base href="http://personium.io/"/>
 	<head>
-		<title>personium.io | Open Source PDS/BaaS Software.</title>
+		<title>Personium | Open Source PDS Software.</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="This page contains the introduction of 'personium.io', the open source software for Personal Data Store (PDS) and Backend-as-a-Service (BaaS). " />
 		<meta name="keywords" content="BaaS,Personal,Data,Open" />
@@ -16,17 +16,20 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
+			<link rel="stylesheet" href="css/magnific-popup.css">
 			<link rel="shortcut icon" href="css/images/favicon.ico">
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="bower_components/dropotron/jquery.dropotron.min.js"></script>
-		<script src="bower_components/jquery-scrolly/jquery.scrolly.js"></script>
-		<script src="bower_components/scrollgress/src/scrollgress.js"></script>
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="bower_components/i18next/i18next.min.js"></script>
-		<script src="bower_components/skel/src/skel.js"></script>
+		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script>
@@ -37,217 +40,121 @@
 
 			ga('create', 'UA-57274327-1', 'auto');
 			ga('send', 'pageview');
-
-			i18n.init(function(t) {
-				$("#translate").i18n();
-			});
 		</script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+		<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 	</head>
-	<body class="index"  id="translate">
-			<header id="header" class="alt">
-				<h1 id="logo"><a href="./" class="btn fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#');">personium.io</a></h1>
-				<nav id="nav">
-					<ul>
-						<li class="current"><a href="#cta" class="button fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#cta');">Resources</a></li>
-						<li class="submenu">
-							<a href="" >Languages</a>
-							<ul>
-								<li><a href="?setLng=en-US">English</a></li>
-								<li><a href="?setLng=ja">Japanese</a></li>
-							</ul>
-						</li>
-						<li><a href="https://github.com/personium/io" class="button special" target="_blank" rel="external" onclick="ga('send', 'event', 'outer', 'click', 'https://github.com/personium/io');">Fork me on GitHub</a></li>
-					</ul>
-				</nav>
-			</header>
+	<body class="index"  id="translate" style="display: none;">
+		<header id="header" class="alt">
+			<h1 id="logo"><a href="./" class="btn fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#');">Personium</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="./index.html#cta" class="button fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#cta');">Resources</a></li>
+					<li class ="current"><a href="./demo/#main">Demo</a></li>
+					<li class="submenu">
+						<a href="" >Languages</a>
+						<ul>
+							<li><a href="?setLng=en-US">English</a></li>
+							<li><a href="?setLng=ja">Japanese</a></li>
+						</ul>
+					</li>
+					<li><a href="https://github.com/personium/" class="button special" target="_blank" rel="external" onclick="ga('send', 'event', 'outer', 'click', 'https://github.com/personium/');">Fork me on GitHub</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<!-- Banner -->
-			<section id="banner">
-				<!--
-					".inner" is set up as an inline-block so it automatically expands
-					in both directions to fit whatever's inside it. This means it won't
-					automatically wrap lines, so be sure to use line breaks where
-					appropriate (<br />).
-				-->
-				<div class="inner">
-					<header>
-						<h2>personium.io</h2>
-					</header>
-					<p data-i18n="[html]representation"></p>
-					<footer>
-						<ul class="buttons vertical">
-							<li><a href="#main" class="button fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#main');">About</a></li>
-						</ul>
-					</footer>
-				</div>
-			</section>
-
-		<!-- Main -->
-			<article id="main">
-				<header class="special container">
-					<span class="icon  fa-laptop"></span>
-					<h2 data-i18n="main-title"></h2>
-					<p data-i18n="[html]description"></p>
+		<section id="banner">
+			<!--
+				".inner" is set up as an inline-block so it automatically expands
+				in both directions to fit whatever's inside it. This means it won't
+				automatically wrap lines, so be sure to use line breaks where
+				appropriate (<br />).
+			-->
+			<div class="inner">
+				<header>
+					<h2>Personium</h2>
 				</header>
+				<p data-i18n="[html]representation"></p>
+				<footer>
+					<ul class="buttons vertical">
+						<li><a href="#main" class="button fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#main');">About</a></li>
+					</ul>
+				</footer>
+			</div>
+		</section>
+		<!-- Main -->
+		<article id="main">
+			<header class="special container">
+				<span class="icon  fa-laptop"></span>
+				<h2 id="langkey" data-i18n="main-title"></h2>
+			</header>
+		</article>
 
-				<!-- One -->
-					<!--<section class="wrapper style2 container special-alt">-->
-						<!--<div class="row 50%">-->
-							<!--<div class="8u 12u(2)">-->
-							<!---->
-								<!--<header>-->
-									<!--<h2><strong>システム中心からヒューマンセントリックへ</strong></h2>-->
-								<!--</header>-->
-								<!--<p>近年、クラウド、センサーやモバイル端末等の進化によって多種多様なＩＣＴサービスが提供されるようになりました。-->
-									<!--しかし、それらに蓄積されるデータはＩＣＴシステム毎に持っているために、データの散在化による横断的な利活用の停滞、データの所有者によるコントローラビリティの確保等新たな課題も生まれています。-->
-									<!--personium.ioは所有者毎にデータを統合管理し、他者に対する開示・利活用の許可を与える仕組みによって、-->
-									<!--システム中心から利用者データを中心としたＩＣＴ、即ちヒューマンセントリックなＩＣＴを実現することを目指しています。</p>-->
-								<!--<footer>-->
-									<!--<ul class="buttons">-->
-										<!--<li><a href="#resouces" class="button fit scrolly" >Go To Details</a></li>-->
-									<!--</ul>-->
-								<!--</footer>-->
+		<BR>
+		<CENTER>
+			<div id="link_youtube">
+				<iframe width="560" height="315" src="https://youtube.com/embed/Fq0pqL4lFA4" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</CENTER>
+		<BR>
 
-							<!--</div>-->
-							<!--<div class="4u 12u(2) important(2)">-->
-							<!---->
-								<!--<ul class="featured-icons">-->
-									<!--<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>-->
-									<!--<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>-->
-									<!--<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>-->
-									<!--<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>-->
-									<!--<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>-->
-									<!--<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>-->
-								<!--</ul>-->
-							<!---->
-							<!--</div>				-->
-						<!--</div>-->
-					<!--</section>-->
-
-				<!-- Two -->
-					<section class="wrapper style3 container special">
-						<div class="row">
-							<div class="4u 12u(2)">
-								<section>
-									<span class="icon featured fa-lock"></span>
-									<header>
-										<h3><strong>"Personal Data Store"</strong></h3>
-									</header>
-									<p data-i18n="[html]pds"></p>
-								</section>
-
-							</div>
-							<div class="4u 12u(2)">
-
-								<section>
-									<span class="icon featured fa-mobile"></span>
-									<header>
-										<h3><strong>"Backend as a Service"</strong></h3>
-									</header>
-									<p data-i18n="[html]baas"></p>
-								</section>
-
-							</div>
-
-							<div class="4u 12u(2)">
-
-								<section>
-									<span class="icon featured fa-check"></span>
-									<header>
-										<h3><strong>"Interconnectable"</strong></h3>
-									</header>
-									<p data-i18n="[html]interconnectable"></p>
-								</section>
-							</div>
-						</div>
-					</section>
-
-				<!--Three-->
-					<!-- <section class="wrapper style3 container special" id="resouces">
-
-						<header class="major">
-							<h2>See <strong>Resources</strong> About personium.io</h2>
+		<!-- Two -->
+		<section class="wrapper style3 container special">
+			<div class="row">
+				<div class="4u 12u(2)">
+					<section>
+						<span class="icon featured fa-lock"></span>
+						<header>
+							<h3><strong>"Personal Data Store"</strong></h3>
 						</header>
-
-						<div class="row">
-							<div class="6u 12u(2)">
-
-								<section>
-									<ul class="buttons">
-										<li><a class="button">User Guide</a></li>
-									</ul>
-									<a href="#" class="image featured"></a>
-									<img src="images/pic03.jpg" alt="" />
-									<header>
-										<h3>User Guide</h3>
-									</header>
-									<p>personium.ioの基本概念・セットアップについて</p>
-								</section>
-							</div>
-							<div class="6u 12u(2)">
-								<section>
-									<ul class="buttons">
-										<li><a class="button">REST API Reference</a></li>
-									</ul>
-									<a href="#" class="image featured"></a>
-									<img src="images/pic03.jpg" alt="" />
-									<header>
-										<h3>REST API Reference</h3>
-									</header>
-									<p>REST APIの詳細仕様について</p>
-								</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="6u 12u(2)">
-
-								<section>
-									<a href="#" class="image featured"><img src="images/background.jpg" alt="" style="background-image: url('images/data33.svg')"/></a>
-									<header>
-										<h3>Client Libraries</h3>
-									</header>
-									<p>Java/Javascriptクライアントライブラリについて</p>
-								</section>
-
-							</div>
-							<div class="6u 12u(2)">
-
-								<section>
-									<a href="#" class="image featured"><img src="images/background.jpg" alt="" /></a>
-									<header>
-										<h3>Engine docs</h3>
-									</header>
-									<p>サーバサイドスクリプトについて</p>
-								</section>
-
-							</div>
-						</div>
-
-						<footer class="major">
-						</footer>
-
+						<p data-i18n="[html]pds"></p>
 					</section>
+				</div>
 
-			</article> -->
+				<div class="4u 12u(2)">
+				
+					<section>
+						<span class="icon featured fa-mobile"></span>
+						<header>
+							<h3><strong>"Backend as a Service"</strong></h3>
+						</header>
+						<p data-i18n="[html]baas"></p>
+					</section>
+				</div>
+
+				<div class="4u 12u(2)">
+					<section>
+						<span class="icon featured fa-check"></span>
+						<header>
+							<h3><strong>"Interconnectable"</strong></h3>
+						</header>
+						<p data-i18n="[html]interconnectable"></p>
+					</section>
+				</div>
+			</div>
+		</section>
 
 		<!-- CTA -->
-			<section id="cta">
+		<section id="cta">
 			<div id="resources">
 				<header>
 					<h2><strong>Resources</strong></h2>
 					<p><strong data-i18n="license"></strong></p>
 				</header>
-			<footer class="footer">
-			<section class="wrapper style1 container special">
+				<footer class="footer">
+
+				<section class="wrapper style1 container special">
 				<div class="row">
-					<div class="4u 12u(1)">
+					<div class="6u 12u(2)">
 
 						<section>
 							<span class="icon featured fa-cog"></span>
 							<header>
 								<ul class="buttons">
-									<li><a href="https://github.com/personium/setup-ansible" class="button special" target="_blank" rel="external"  onclick="ga('send', 'event', 'outer', 'click', 'https://github.com/personium/ansible-setup');">Set Up</a></li>
+								<div id="link_setup">
+									<li><a href="setup-ansible/setup_en.html" class="button special" target="_blank" rel="external"  onclick="ga('send', 'event', 'outer', 'click', 'setup-ansible/setup_en.html');">Set Up</a></li>
 								</ul>
 							</header>
 							<p data-i18n="setup"></p>
@@ -258,35 +165,62 @@
 							<span class="icon featured fa-inbox"></span>
 							<header>
 								<ul class="buttons">
-									<li><a href="https://github.com/personium/io" class="button" target="_blank" rel="external"  onclick="ga('send', 'event', 'outer', 'click', 'https://github.com/personium/io');">Source</a></li>
+									<li><a href="https://github.com/personium/" class="button special" target="_blank" rel="external"  onclick="ga('send', 'event', 'outer', 'click', 'https://github.com/personium/');">Source</a></li>
 								</ul>
 							</header>
 							<p data-i18n="source"></p>
 						</section>
 
 					</div>
+				</div>
+			</section>
+			<section class="wrapper style1 container special">
+				<div class="row">
+					<div class="6u 12u(2)">
+						<section>
+							<span class="icon featured fa-file-powerpoint-o"></span>
+							<header>
+								<ul class="buttons">
+									<li><a href="http://www.slideshare.net/ssuser11bf2b/personium-mydata2016-0902" class="button" target="_blank" onclick="ga('send', 'event', 'inner', 'click', 'https://demo.personium.io/baas-demo/1/index.html');">Introduction</a></li>
+								</ul>
+							</header>
+							<p data-i18n="introduction"></p>
+						</section>
+					</div>
 					<div class="6u 12u(2)">
 						<section>
 							<span class="icon featured fa-file-text-o"></span>
 							<header>
 								<ul class="buttons">
+								<div id="link_doc">
 									<li><a href="https://github.com/personium/io/wiki" class="button" target="_blank" onclick="ga('send', 'event', 'inner', 'click', 'https://github.com/personium/docs');">Documentation</a></li>
+								</div>
 								</ul>
 							</header>
 							<p data-i18n="documentation"></p>
 						</section>
-
 					</div>
 				</div>
 			</section>
 		</div>
-		</section>
-		</footer>
+	</section>
+	</footer>
+
+<BR>
+<CENTER>
+<br>
+<span id="twitterLine">
+</span>
+<BR>
+</CENTER>
 		<!-- Footer -->
 			<footer id="footer">
 
 				<ul class="icons">
-					<li><a href="https://twitter.com/personium_ja" target="_blank" rel="external" class="icon circle fa-twitter" onclick="ga('send', 'event', 'outer', 'click', 'https://twitter.com/personium_ja');"><span class="label">Twitter</span></a></li>
+					<li>
+						<div id="link_twpage"><a href="https://twitter.com/personium_ja" target="_blank" rel="external" class="icon circle fa-twitter" onclick="ga('send', 'event', 'outer', 'click', 'https://twitter.com/personium_ja');"><span class="label">Twitter</span></a>
+						</div>
+					</li>
 					<!--<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>-->
 					<li><a href="https://plus.google.com/u/0/107629942469004993811/" target="_blank" rel="external" class="icon circle fa-google-plus" onclick="ga('send', 'event', 'outer', 'click', 'https://plus.google.com/u/0/107629942469004993811/posts');"><span class="label">Google+</span></a></li>
 					<li><a href="https://github.com/personium" target="_blank" rel="external" class="icon circle fa-github" onclick="ga('send', 'event', 'outer', 'click', 'https://github.com/personium');"><span class="label">Github</span></a></li>
@@ -308,5 +242,44 @@
 			});
 		});
 		</script>
-	</body>
+
+    <script>
+        i18n.init(function(err, t) {
+                $("#translate").i18n();
+
+                $("#link_youtube iframe").attr("src", t("link-youtube"));
+                $("#link_twpage a").attr("href", "https://twitter.com/" + t("twitter-screen-name"));
+                $("#link_setup a").attr("href", t("link-setup"));
+                $("#link_doc a").attr("href", t("link-doc"));
+
+                // create twitter time line
+                twttr.widgets.createTimeline(
+                  {
+                    sourceType: "profile",
+                    screenName: t("twitter-screen-name")
+                  },
+                  document.getElementById("twitterLine"),
+                  {
+                    width: 550,
+                    height: 280,
+                    theme: "light",
+                    linkColor: "#594264",
+                    dnt: true,
+                    chrome: "transparent",
+                    ariaPolite: "assertive"
+                  }
+                );
+        });
+    </script>
+
+    <!--<script type="text/javascript">
+        $(window).load(function(){
+	        $.magnificPopup.open({
+		            items: {src: i18n.t("youtube")},
+			    type: 'iframe', 
+		}, 0);
+        });
+    </script>-->
+  
+    </body>
 </html>
