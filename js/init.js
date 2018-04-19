@@ -4,7 +4,35 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+(function ($) {
+    i18n.init(function (err, t) {
+        $("#translate").i18n();
+
+        $("#link_youtube iframe").attr("src", t("youtube_personium_description"));
+        $("#link_twpage a").attr("href", "https://twitter.com/" + t("twitter-screen-name"));
+        $("#link_setup a").attr("href", t("link-setup"));
+        $("#link_doc a").attr("href", t("link-doc"));
+        $("#nav_link_doc a").attr("href", t("link-doc"));
+
+        // create twitter time line
+        twttr.widgets.createTimeline(
+            {
+                sourceType: "profile",
+                screenName: t("twitter-screen-name")
+            },
+            document.getElementById("twitterLine"),
+            {
+                width: 550,
+                height: 280,
+                theme: "light",
+                linkColor: "#594264",
+                dnt: true,
+                chrome: "transparent",
+                ariaPolite: "assertive"
+            }
+        );
+
+    });
 
 	skel.init({
 		reset: 'full',
