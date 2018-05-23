@@ -84,6 +84,6 @@
     "twitter-screen-name": "personium",
     "youtube_personium_description": "https://youtube.com/embed/Fq0pqL4lFA4",
     "youtube_personium_demo": "https://www.youtube.com/embed/0Wqzj3ZX2fc",
-    "link-setup": "setup-ansible/setup_en.html",
-    "link-doc": "https://personium.github.io/en/"
+    "link-setup": "docs/en/server-operator/setup_en.html",
+    "link-doc": "//personium.github.io/en/"
 }

@@ -86,7 +86,7 @@
     "twitter-screen-name": "personium",
     "youtube_personium_description": "https://youtube.com/embed/Fq0pqL4lFA4",
     "youtube_personium_demo": "https://www.youtube.com/embed/0Wqzj3ZX2fc",
-    "link-setup": "setup-ansible/setup_en.html",
-    "link-doc": "http://personium.io/docs/en/",
+    "link-setup": "docs/en/server-operator/setup_en.html",
+    "link-doc": "//personium.io/docs/en/",
     "unitmgr-git-link": "https://github.com/personium/unit-manager/blob/master/README.md"
 }
