@@ -88,5 +88,7 @@
     "youtube_personium_demo": "https://www.youtube.com/embed/qlq0xM5TGiw",
     "link-setup": "docs/ja/server-operator/setup_ja.html",
     "link-doc": "//personium.io/docs/ja/",
-    "unitmgr-git-link": "https://github.com/personium/unit-manager/blob/master/README_ja.md"
+    "unitmgr-git-link": "https://github.com/personium/unit-manager/blob/master/README_ja.md",
+    "members-title": "参加者",
+    "members-description": "Personiumは以下のような企業・団体、コントリビュータの皆様の協力・支援のもとに運営されています"
 }

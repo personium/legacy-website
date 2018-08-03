@@ -88,5 +88,7 @@
     "youtube_personium_demo": "https://www.youtube.com/embed/0Wqzj3ZX2fc",
     "link-setup": "docs/en/server-operator/setup_en.html",
     "link-doc": "//personium.io/docs/en/",
-    "unitmgr-git-link": "https://github.com/personium/unit-manager/blob/master/README.md"
+    "unitmgr-git-link": "https://github.com/personium/unit-manager/blob/master/README.md",
+    "members-title": "Members",
+    "members-description": "Personium is operated under the cooperation and support of the following companies / organizations, contributors"
 }
