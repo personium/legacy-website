@@ -1,259 +1,49 @@
 <!DOCTYPE HTML>
 <!--
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Just redirect page
 -->
-<html lang="en">
-	<base href="//personium.io/"/>
-	<head>
-		<title>Personium | Open Source PDS Software.</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="An interconnectable open source PDS (Personal Data Store) server envisioning world wide web of protected data APIs. " />
-		<meta name="keywords" content="BaaS,Personal,Data,Open" />
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="shortcut icon" href="css/images/favicon.ico">
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="css/magnific-popup.css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-		<script src="bower_components/i18next/i18next.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
 
-			ga('create', 'UA-57274327-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-		<script src="js/widgets.js" charset="utf-8"></script>
-        <script src="js/init.js?v=1.01"></script>
 
-	</head>
-	<body class="index"  id="translate" style="display: none">
-		<header id="header" class="alt">
-			<h1 id="logo"><a href="./" class="btn fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#');">Personium</a></h1>
-			<nav id="nav">
-				<ul>
-					<li id="nav_link_doc" class="current"><a href="//personium.io/_webcheck/docs/en/" class="button fit scrolly" data-i18n="[href]link-doc" target="_blank" onclick="ga('send', 'event', 'inner', 'click', '//personium.io/_webcheck/docs/en/');">Documentation</a></li>
-					<li class="current"><a href="./index.html#cta" class="button fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#cta');">Resources</a></li>
-					<li class ="current"><a href="./demo/#main">Demo</a></li>
-					<li class ="current"><a href="./about/vision.html">Vision</a></li>
-					<li class ="current"><a href="./about/members.html">Community</a></li>
-					<li class="submenu">
-						<a href="" >Languages</a>
-						<ul>
-							<li><a href="?setLng=en-US">English</a></li>
-							<li><a href="?setLng=ja">Japanese</a></li>
-						</ul>
-					</li>
-					<li><a href="//github.com/personium/" class="button special" target="_blank" rel="external" onclick="ga('send', 'event', 'outer', 'click', '//github.com/personium/');">Fork me on GitHub</a></li>
-				</ul>
-			</nav>
-		</header>
+<script type="text/javascript" charset="utf-8">
+var browserLanguage = function() {
+    var ua = window.navigator.userAgent.toLowerCase();
+    try {
+        // chrome
+        if( ua.indexOf( 'chrome' ) != -1 ){
+            return ( navigator.languages[0] || navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2);
+        }
+        // それ以外
+        else{
+            return ( navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2);
+        }
+    }
+    catch( e ) {
+        return undefined;
+    }
+}
 
-		<!-- Banner -->
-		<section id="banner">
-			<!--
-				".inner" is set up as an inline-block so it automatically expands
-				in both directions to fit whatever's inside it. This means it won't
-				automatically wrap lines, so be sure to use line breaks where
-				appropriate (<br />).
-			-->
-			<div class="inner">
-				<header>
-					<h2>Personium</h2>
-				</header>
-				<p data-i18n="[html]representation"></p>
-				<footer>
-					<ul class="buttons vertical">
-						<li><a href="#main" class="button fit scrolly" onclick="ga('send', 'event', 'inner', 'click', '#main');">About</a></li>
-					</ul>
-				</footer>
-			</div>
-		</section>
-		<!-- Main -->
-		<article id="main">
-			<header class="special container">
-				<span class="icon  fa-laptop"></span>
-				<h2 id="langkey" data-i18n="main-title"></h2>
-			</header>
-		</article>
+var arg = new Object();
+var lang = null;
 
-		<BR>
-		<CENTER>
-			<div id="link_youtube">
-				<iframe width="560" height="315" src="//youtube.com/embed/Fq0pqL4lFA4" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</CENTER>
-		<BR>
+lang = browserLanguage();
 
-		<!-- Two -->
-		<section class="wrapper style3 container special">
-			<div class="row">
-				<div class="4u 12u(2)">
-					<section>
-						<span class="icon featured fa-lock"></span>
-						<header>
-							<h3><strong>"Personal Data Store"</strong></h3>
-						</header>
-						<p data-i18n="[html]pds"></p>
-					</section>
-				</div>
+if( lang == 'ja' ){
+       location.href="https://personium.io/ja/index.html";
+}
+// 英語
+else if( lang == 'en' ){
+       location.href="https://personium.io/en/index.html";
+}
+// その他
+else{
+       location.href="https://personium.io/en/index.html";
+}
+</script>
 
-				<div class="4u 12u(2)">
-				
-					<section>
-						<span class="icon featured fa-mobile"></span>
-						<header>
-							<h3><strong>"Backend as a Service"</strong></h3>
-						</header>
-						<p data-i18n="[html]baas"></p>
-					</section>
-				</div>
-
-				<div class="4u 12u(2)">
-					<section>
-						<span class="icon featured fa-check"></span>
-						<header>
-							<h3><strong>"Interconnectable"</strong></h3>
-						</header>
-						<p data-i18n="[html]interconnectable"></p>
-					</section>
-				</div>
-			</div>
-		</section>
-
-		<!-- CTA -->
-		<section id="cta">
-			<div id="resources">
-				<header>
-					<h2><strong>Resources</strong></h2>
-					<p><strong data-i18n="license"></strong></p>
-				</header>
-				<footer class="footer">
-
-				<section class="wrapper style1 container special">
-				<div class="row">
-					<div class="6u 12u(2)">
-
-						<section>
-							<span class="icon featured fa-cog"></span>
-							<header>
-								<ul class="buttons">
-								<div id="link_setup">
-									<li><a href="docs/en/server-operator/setup_en.html" class="button special" target="_blank" rel="external"  onclick="ga('send', 'event', 'outer', 'click', 'docs/en/server-operator/setup_en.html');">Set Up</a></li>
-								</ul>
-							</header>
-							<p data-i18n="setup"></p>
-						</section>
-					</div>
-					<div class="6u 12u(2)">
-						<section>
-							<span class="icon featured fa-inbox"></span>
-							<header>
-								<ul class="buttons">
-									<li><a href="//github.com/personium/" class="button special" target="_blank" rel="external"  onclick="ga('send', 'event', 'outer', 'click', '//github.com/personium/');">Source</a></li>
-								</ul>
-							</header>
-							<p data-i18n="source"></p>
-						</section>
-
-					</div>
-				</div>
-			</section>
-			<section class="wrapper style1 container special">
-				<div class="row">
-					<div class="6u 12u(2)">
-						<section>
-							<span class="icon featured fa-file-powerpoint-o"></span>
-							<header>
-								<ul class="buttons">
-									<li><a href="//www.slideshare.net/ssuser11bf2b/personium-mydata2016-0902" class="button" target="_blank" onclick="ga('send', 'event', 'inner', 'click', '//demo.personium.io/baas-demo/1/index.html');">Introduction</a></li>
-								</ul>
-							</header>
-							<p data-i18n="introduction"></p>
-						</section>
-					</div>
-					<div class="6u 12u(2)">
-						<section>
-							<span class="icon featured fa-file-text-o"></span>
-							<header>
-								<ul class="buttons">
-								<div id="link_doc">
-									<li><a href="//github.com/personium/io/wiki" class="button" target="_blank" onclick="ga('send', 'event', 'inner', 'click', '//github.com/personium/docs');">Documentation</a></li>
-								</div>
-								</ul>
-							</header>
-							<p data-i18n="documentation"></p>
-						</section>
-					</div>
-				</div>
-			</section>
-		</div>
-	</section>
-	</footer>
-
-<BR>
-<CENTER>
-<br>
-<span id="twitterLine">
-</span>
-<BR>
-</CENTER>
-		<!-- Footer -->
-			<footer id="footer">
-
-				<ul class="icons">
-					<li>
-						<div id="link_twpage"><a href="//twitter.com/personium_ja" target="_blank" rel="external" class="icon circle fa-twitter" onclick="ga('send', 'event', 'outer', 'click', '//twitter.com/personium_ja');"><span class="label">Twitter</span></a>
-						</div>
-					</li>
-					<!--<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>-->
-					<li><a href="//plus.google.com/u/0/107629942469004993811/" target="_blank" rel="external" class="icon circle fa-google-plus" onclick="ga('send', 'event', 'outer', 'click', '//plus.google.com/u/0/107629942469004993811/posts');"><span class="label">Google+</span></a></li>
-					<li><a href="//github.com/personium" target="_blank" rel="external" class="icon circle fa-github" onclick="ga('send', 'event', 'outer', 'click', '//github.com/personium');"><span class="label">Github</span></a></li>
-					<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-				</ul>
-
-				<ul class="copyright">
-					<li>Design: <a href="//html5up.net" rel="external" target="_blank" rel="external" onclick="ga('send', 'event', 'outer', 'click', '//html5up.net');">HTML5 UP</a> & <a href="//www.freepik.com/" target="_blank" rel="external" onclick="ga('send', 'event', 'outer', 'click', '//www.freepik.com/');">Freepik.com</a> </li>
-				</ul>
-
-			</footer>
-		<script type="text/javascript">jQuery(function() {
-			jQuery("a").click(function(e) {
-				var ahref = jQuery(this).attr('href');
-				if (ahref.indexOf("personium.io") != -1 || ahref.indexOf("http") == -1 ) {
-					ga('send', 'event', '内部リンク', 'クリック', ahref);}
-				else {
-					ga('send', 'event', '外部リンク', 'クリック', ahref);}
-			});
-		});
-		</script>
-
-    <!--<script type="text/javascript">
-        $(window).load(function(){
-	        $.magnificPopup.open({
-		            items: {src: i18n.t("youtube")},
-			    type: 'iframe', 
-		}, 0);
-        });
-    </script>-->
-  
-    </body>
-</html>
+</BODY>
+</HTML>
