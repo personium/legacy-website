@@ -92,7 +92,7 @@
     </div>
 
 
-    <header class="bg-gradient" id="home">
+    <header id="home" class="filter">
       <div class="container mt-5">
 	<div class="header-title">
           <h1><img class="logo" src="../images/logo-quantify-light.svg" alt="Quantify - One Page HTML Theme" /></h1>
@@ -104,6 +104,12 @@
 
 
     <div class="section light-bg" id="features">
+
+    <!--ヘッダー背景のアニメーション-->
+       <div id="background-container" class="background-container">
+          <div id="background-output" class="background-output"></div>
+       </div>
+    <!--ヘッダー背景のアニメーション-->
 
 
       <div class="container">
@@ -464,11 +470,15 @@
 
     <!-- jQuery and Bootstrap -->
     <script src="../js/jquery-3.2.1.min.js"></script>
+        <script src="../js/jquery-1.11.1.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/flat-surface-shader.js"></script>
+    <script src="../js/shader.js"></script>
     <!-- Plugins JS -->
     <script src="../js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="../js/script.js"></script>
+
     <p id="page-top"><a href="#home"></a></p>
   </body>
 
