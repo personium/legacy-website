@@ -364,7 +364,7 @@ p.lead {
 ----------------------*/
 
 header {
-    padding: 200px 0px 200px;
+    padding: 187px 0px 200px;
     text-align: center;
     color: #fff;
 }
@@ -377,6 +377,10 @@ header {
 }
 }
 
+.filter{
+	background-color: rgba(0,0,0,0.30);
+}
+
 .header-title{
 	margin: 0px 24% 0;
 }
@@ -384,6 +388,22 @@ header {
 .bg-gradient {
 	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/bg-1.png);
 }
+
+.background-container {
+	position: absolute;
+	height: 620px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: -300;
+}
+
+noindex:-o-prefocus, 
+.background-container {
+	display: none;
+} /* Hide background in old Opera because of lags */
 
 .tagline {
     font-size: 19px;
