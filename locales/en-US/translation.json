@@ -23,7 +23,7 @@
     "pcui-view7" : "Notes on using pcui",
     "pcui-view8" : "Uninstall pcui",
     "pcui-description" : "The following environment is necessary to execute pcui.<br />・Ruby 2.X or higher<br />・rest-client<br />・rb-readline<br /><br />Please install the library with the gem command etc.<br />(Example) gem install rest-client",
-    "pcui-description1" : "Please get pcui from GitHub (https://github.com/fujitsu-pio/pcui) and place it in an arbitrary folder.Pcui works only with \"pcui.rb \".",
+    "pcui-description1" : "Please get pcui from GitHub (https://github.com/personium/pcui) and place it in an arbitrary folder.Pcui works only with \"pcui.rb \".",
     "pcui-description2" : "Please execute like <br /> ・ ruby pcui.rb <br /> on the directory where \"pcui.rb\" resides.",
     "pcui-description3" : "When starting pcui for the first time, you need to enter the following four pieces of information.<br >&nbsp;&nbsp;1)In this session, choosing whether to keep the log<br />&nbsp;&nbsp;2)URL of cell to login<br />&nbsp;&nbsp;3)Login account<br />&nbsp;&nbsp;4)Login password",
     "pcui-description4" : "Immediately after logging in with pcui, the user is at the top level of Cell. The commands available in Cell mode are as follows.",
