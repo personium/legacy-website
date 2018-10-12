@@ -23,7 +23,7 @@
     "pcui-view7" : "pcui利用上の注意点",
     "pcui-view8" : "pcuiのアンインストール",
     "pcui-description" : "pcuiの実行には以下の環境が必要です。<br />・Ruby 2.X以上<br />・rest-client<br />・rb-readline<br /><br />上記ライブリをgemコマンド等でインストールして下さい。<br />(例) gem install rest-client",
-    "pcui-description1" : "GitHub(https://github.com/fujitsu-pio/pcui)からpcuiを入手し、任意のフォルダに設置して下さい。pcuiは\"pcui.rb\"のみで動作します。",
+    "pcui-description1" : "GitHub(https://github.com/personium/pcui)からpcuiを入手し、任意のフォルダに設置して下さい。pcuiは\"pcui.rb\"のみで動作します。",
     "pcui-description2" : "\"pcui.rb\"が存在するディレクトリで<br />・ruby pcui.rb<br />の様に実行して下さい。",
     "pcui-description3" : "pcuiを初めて起動する場合、以下の4つの情報入力が必要になります。<br >&nbsp;&nbsp;1)このセッションでログを残すかの選択<br />&nbsp;&nbsp;2)ログインするCellのURL<br />&nbsp;&nbsp;3)ログインアカウント<br />&nbsp;&nbsp;4)ログインパスワード",
     "pcui-description4" : "pcuiでログインした直後、利用者はCellのトップレベルにいます。Cellモードで使用可能なコマンドは以下になります。",
