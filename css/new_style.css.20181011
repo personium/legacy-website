@@ -242,7 +242,7 @@ p.lead {
 }
 
 .f-icon{
-    display: inline;
+	display: inline;
 }
 
 .f-icon i{
@@ -253,6 +253,7 @@ p.lead {
 .f-icon i:hover{
     opacity: 0.5;
 }
+
 /* NAVBAR
 ----------------------*/
 
@@ -344,7 +345,7 @@ li.sns i{
         padding-right: 1rem;
         padding-left: 1rem;
         font-size: 14px;
-        color: #ffffff;
+		color: #ffffff;
 }
 		
     }
@@ -957,11 +958,9 @@ noindex:-o-prefocus,
 
 @media (max-width:991px) {
     .f-aria{
-	    height: auto;
-		
+	height: auto;
     }
 }
-
 
 #community a {
     border: 1px solid;
@@ -995,6 +994,3 @@ noindex:-o-prefocus,
         width: 46%;
     }
 }
-
-	
-	
