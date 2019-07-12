@@ -19,16 +19,16 @@ $(function() {
         var $navmenu = $('.nav-menu');
         if ($(window).scrollTop() > 50) {
             $navmenu.addClass('is-scrolling');
-            $('#header-logo').attr('src','./images/logo-quantify-dark.png');
-			$('#sns-s').attr('src','./images/h_slack-dark.png');
-			$('#sns-g').attr('src','./images/h_github-dark.png');
+            $('#header-logo').attr('src','../../../images/logo-quantify-dark.png');
+			$('#sns-s').attr('src','../../../images/h_slack-dark.png');
+			$('#sns-g').attr('src','../../../images/h_github-dark.png');
 			$('.navbar-toggler').css({'color':'rgba(30,190,140,.4)','border-color':'rgba(30,190,140,.4)'});
 			$('.navbar-toggler-ico').css({'background-image':'rgba(30, 190, 140, 0.5)'});
         } else {
             $navmenu.removeClass("is-scrolling");
-            $('#header-logo').attr('src','./images/logo-quantify-light.png');
-			$('#sns-s').attr('src','./images/h_slack-light.png');
-			$('#sns-g').attr('src','./images/h_github-light.png');
+            $('#header-logo').attr('src','../../../images/logo-quantify-light.png');
+			$('#sns-s').attr('src','../../../images/h_slack-light.png');
+			$('#sns-g').attr('src','../../../images/h_github-light.png');
 			$('.navbar-toggler').css({'color':'rgba(255,255,255,.5)','border-color':'rgba(255,255,255,.3)'});
 			$('.navbar-toggler-ico').css({'background-image':'rgba(255, 255, 255, 0.5)'});	
         }
